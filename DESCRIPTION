@@ -1,0 +1,18 @@
+Package: signed.backbones
+Title: Extract the Signed Backbones of Weighted Networks.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Furkan",
+           family = "Gursoy",
+           role = c("aut"),
+           email = "furkan.gursoy@boun.edu.tr",
+           comment = c(ORCID = "0000-0001-9701-2814"))
+Description: Signed backbones are extracted based on the significance filter and vigor filter as described in the following paper. Please cite it if you find this software useful in your work.	
+	Furkan Gursoy and Bertan Badur. "Extracting the signed backbone of intrinsically dense weighted networks." [https://arxiv.org/abs/2012.05216]
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+	reshape2
