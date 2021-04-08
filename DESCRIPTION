@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person(given = "Furkan",
            family = "Gursoy",
-           role = c("aut"),
+           role = "aut",
            email = "furkan.gursoy@boun.edu.tr",
            comment = c(ORCID = "0000-0001-9701-2814"))
 Description: Signed backbones are extracted based on the significance filter and vigor filter as described in the following paper. Please cite it if you find this software useful in your work.	
