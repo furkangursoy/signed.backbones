@@ -2,7 +2,7 @@
 #'
 #' @description Signed backbones are extracted based on the significance filter and vigor filter as described in the following paper. Please cite it if you find this software useful in your work.
 #'
-#'#' Furkan Gursoy and Bertan Badur. "Extracting the signed backbone of intrinsically dense weighted networks." [https://arxiv.org/abs/2012.05216]
+#' Furkan Gursoy and Bertan Badur. "Extracting the signed backbone of intrinsically dense weighted networks." [https://arxiv.org/abs/2012.05216]
 #' @param edgelist A data frame. First two columns contain node pairs, and the third column contains the edge weights. If directed = TRUE, columns should be in this order: source node, target node, edge weight.
 #' @param directed Whether the input network is directed. Defaults to TRUE.
 #' @param significance_threshold Threshold for the significance filter. Defaults to '15pc'. 

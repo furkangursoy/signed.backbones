@@ -50,7 +50,7 @@ extract(
 \description{
 Signed backbones are extracted based on the significance filter and vigor filter as described in the following paper. Please cite it if you find this software useful in your work.
 
-#' Furkan Gursoy and Bertan Badur. "Extracting the signed backbone of intrinsically dense weighted networks." \link{https://arxiv.org/abs/2012.05216}
+Furkan Gursoy and Bertan Badur. "Extracting the signed backbone of intrinsically dense weighted networks." \link{https://arxiv.org/abs/2012.05216}
 }
 \examples{
 net <- read.csv('myedgelist.csv', header=FALSE)
