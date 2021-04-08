@@ -36,7 +36,7 @@ extract = function(edgelist, directed = TRUE, significance_threshold = '15pc', v
                    return_weights = FALSE, return_significance = FALSE, 
                    max_iteration = 100, precision = 10e-8){
   
-  
+  edgelist[,c(1, 2)] <- lapply(edgelist[,c(1, 2)], as.character)
   
   if (directed) {
     edgelist <- edgelist
